@@ -4,7 +4,7 @@ Package to control CTU/CIIRC robots CRS93 and CRS97 via MARS control unit.
 ## Installation
 
 ```
-pip install ctu_crs
+pip install ctu_crs opencv-python opencv-contrib-python pandas
 ```
 
 ## Simple python script to control the robot

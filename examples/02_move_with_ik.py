@@ -5,9 +5,9 @@
 #     Author: Vladimir Petrik <vladimir.petrik@cvut.cz>
 #
 import numpy as np
-from ctu_crs import CRS97
+from ctu_crs import CRS93
 
-robot = CRS97()
+robot = CRS93()
 robot.initialize()
 
 q0 = robot.q_home

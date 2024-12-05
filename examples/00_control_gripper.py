@@ -4,9 +4,9 @@
 # Created on: 2024-10-29
 #     Author: Vladimir Petrik <vladimir.petrik@cvut.cz>
 
-from ctu_crs import CRS97
+from ctu_crs import CRS93
 
-robot = CRS97()
+robot = CRS93()
 robot.initialize()
 robot.gripper.control_position_relative(0.5)
 robot.gripper.control_position(robot.gripper.bounds[0])
