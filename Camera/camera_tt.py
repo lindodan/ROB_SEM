@@ -12,8 +12,8 @@ def main():
     #   camera.connect_by_name("camera-crs93")
     # Camera for robot CRS 97
     #   camera.connect_by_ip("192.168.137.106")
-    #   camera.connect_by_name("camera-crs97")
-    camera.connect_by_name("camera-crs97")
+    #   camera.connect_by_name("camera-crs97")s
+    camera.connect_by_name("camera-crs93")
 
     # Open the communication with the camera
     camera.open()

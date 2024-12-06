@@ -12,7 +12,7 @@ SQUARES_HORIZONTALLY = 5
 SQUARE_LENGTH = 0.03
 MARKER_LENGTH = 0.015
 # ...
-PATH_TO_YOUR_IMAGES = '/Users/danli/ROB_SEM/ctu_crs/Camera/calibration_images' # Change this to actual file name
+PATH_TO_YOUR_IMAGES = '/home/lindodan/PycharmProjects/Semestralka/ROB_SEM/Camera/calibration_images' # Change this to actual file name
 # ------------------------------
 
 def calibrate_and_save_parameters():
@@ -22,7 +22,7 @@ def calibrate_and_save_parameters():
     params = cv2.aruco.DetectorParameters()
 
     # Load PNG images from folder
-    image_files = [os.path.join(PATH_TO_YOUR_IMAGES, f) for f in os.listdir(PATH_TO_YOUR_IMAGES) if f.endswith(".jpg")]
+    image_files = [os.path.join(PATH_TO_YOUR_IMAGES, f) for f in os.listdir(PATH_TO_YOUR_IMAGES) if f.endswith(".png")]
     image_files.sort()  # Ensure files are in order
 
     all_charuco_corners = []
